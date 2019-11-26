@@ -67,24 +67,25 @@
 	
 </head>
     
-		
-<!-- Layouts -->
-
-
-
-<!--  代码渲染  -->
-<link rel="stylesheet" href="/css/prism_coy.css" />
-<link rel="stylesheet" href="/css/typo.css" />
-<!-- 文章页 -->
-<body class="is-loading">
+		<body class="is-loading">
     <!-- Wrapper 外包 s-->
-    <div id="wrapper" class="fade-in">
+    <div id="wrapper" class="fade-in overlay">
         <!-- Intro 头部显示 s -->
+                <div id="intro">
+            <h1>Welcome to <br />
+                        Adela's Blog </h1>
+            <p> I am who I really am. <br/> I'll think of you every step of the way
+            </p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
         <!-- Intro 头部显示 e -->
         <!-- Header 头部logo start -->
         <header id="header">
     <a href="/" class="logo">Adela's Blog</a>
 </header>
+        <!-- Header 头部logo end -->
         <!-- Nav 导航条 start -->
         <nav id="nav" class="special" >
             <ul class="menu links" >
@@ -127,68 +128,59 @@
                     
 			</ul>
 </nav>
+        <!-- Nav 导航条 end -->
+        <!-- Main 主要部分 start -->
+        
+        <!-- 文章列表   s -->
+        <div id="main" style="background-color: transparent; padding:0;">
+        <section class="link_container" style="margin-top: 0; background-color: transparent; ">
+            <div class="link_row">
+                <!-- 文章sample  s-->
 
-        <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >&lt;&lt;汪国真诗集&gt;&gt;</h2></a>
-            </div>
-            <!-- Post -->
-            <div class="typo" style="padding: 3rem;">
-                <p>#目录  </p>
-<ul>
-<li>第一篇<br><a href="/2019/11/16/poems/poem1/">《背影》—手抄版</a>  </li>
-</ul>
-<ul>
-<li><p>第二篇<br><a href="/2019/11/17/poems/poem2/">《不要急于相见》—手抄版</a></p>
-</li>
-<li><p>第三篇<br><a href="/2019/11/18/poems/poem3/">《但是，我更乐意》—手抄版</a></p>
-</li>
-<li><p>第四篇<br><a href="/2019/11/19/poems/poem4/">《淡淡的云彩悠悠的游》—手抄版</a> </p>
-</li>
-<li><p>第五篇<br><a href="/2019/11/20/poems/poem5/">《热爱生命》—手抄版</a> </p>
-</li>
-<li><p>第六篇<br><a href="/2019/11/21/poems/poem6/">《豪放是一种美德》—手抄版</a> </p>
-</li>
-<li><p>第七篇<br><a href="/2019/11/22/poems/poem7/">《那凋零的是花》—手抄版</a> </p>
-</li>
-<li><p>第八篇<br><a href="/2019/11/24/poems/poem8/">《思念》—手抄版</a> </p>
-</li>
-<li><p>第九篇<br><a href="/2019/11/25/poems/poem9/">《海滨夜话》—手抄版</a> </p>
-</li>
-<li><p>第十篇<br><a href="/2019/11/26/poems/poem10/">《永恒的心》—手抄版</a> </p>
-</li>
-</ul>
-
-            </div>
-
-            <!-- Post Comments -->
+                
+                <div class="6u 12u(narrower)">
+                    <section class="link_box special">
+                       <a href="/2019/11/16/poems/poem_menu/">
+                        <div class="page_title" style="background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                            <!--标题-->
+                            <h2 class="page_title_text"> &lt;&lt;汪国真诗集&gt;&gt; </h2>
+                            <!--段落-->
+                        </div>
+                        </a>
+                        <div class="home-post-info">
+                            <!-- Author Avatar -->
+                            <div class="home-post-info-author-avatar">
+                                <h6><span class="home-post-info-data">2019-11-16</span></h6>
+                                <div class="home-post-info-Category">
+                                    <!-- Category -->
+                                    <span>
+                            <h6>
+                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/" target="_blank" rel="noopener">
+                                </a>
+                            </h6>
+                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- 文章sample  e-->
             
-    <!-- 使用 valine -->
-<div id="comment">
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<script>
-    new Valine({
-        el: '#comment' ,
-        notify: false,
-        verify: false,
-        app_id: 'P3Te5FXNjiPv90ghFxQfjFz5-gzGzoHsz',
-        app_key: '9txK4zSINy2lr8T2zwXtDDaq',
-        placeholder: '给我留个言吧，楠宝儿都会看到呦～（Please leave your footprints）',
-        pageSize: '10',
-        avatar: 'mm',
-        avatar_cdn: 'https://gravatar.loli.net/avatar/'
-    });
-</script>
-</div>
-<style>
-   #comment{
-        padding: 2pc;
-    }
-</style>
-
-
+            </div>
+        </section>
         </div>
+        <!-- 文章列表   end -->
+        <!-- Main 主要部分 end -->
+        <!-- footer  页码 start-->
+        <footer style="text-align: center; padding-top: 2em;">
+  
+    <div class="pagination" >
+        <a class="extend prev" rel="prev" href="/">pre</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </div>  
+    
+</footer>
+
+        <!-- footer  页码 end-->
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -199,10 +191,11 @@
                 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 			
         </div>
+        <!-- Copyright 版权 end -->
     </div>
+    <!-- Wrapper 外包 e-->
+    <!-- Scripts -->
 </body>
-
-
 
  	
 </html>
